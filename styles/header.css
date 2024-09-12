@@ -1,0 +1,24 @@
+@import url(global.css);
+
+header {
+  padding-block: 32px;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+  max-width: 384px;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: var(--text-md);
+}
